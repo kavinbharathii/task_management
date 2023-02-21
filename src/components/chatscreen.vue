@@ -76,11 +76,9 @@ export default {
     z-index: 999;
     background: #242424;
     border: 1px solid;
-    min-width: 89vw;
-    max-width: 89vw;
+    min-width: 97vw;
     min-height: 73vh;
-    max-height: 73vh;
-    border-radius: 10%;
+    margin:  0 0 0 .5em;
 }
 
 .header {
@@ -123,5 +121,6 @@ input {
     width: fit-content;
     float: right;
 }
+
 
 </style>
