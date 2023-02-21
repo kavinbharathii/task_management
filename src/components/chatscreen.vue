@@ -1,7 +1,7 @@
 <template>
 
 <div class="box">    
-    <div class="header" style="font-size:24px">Conversion</div>
+    <div class="header" style="font-size:24px">Team Chat</div>
     <div class="allmessage" style="margin: 0.4em 0 0 0; display: flex; flex-direction: column;">
         <div class="message" v-for="(data,index) in this.messages" :key="index">
                 <div :class="data.name == this.currentUser ? 'barath' : 'unknown'">{{data.message}}</div>
