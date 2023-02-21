@@ -3,6 +3,7 @@ import Project from '../components/Project.vue'
 import { ref, get, child, onChildChanged, update, set } from "firebase/database"
 import { db , auth  } from "../firebase"
 import Router from '../router/index'
+import { onAuthStateChanged } from 'firebase/auth'
 
 export default {
     name: "HomeView",
